@@ -1,0 +1,1533 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc8780a --dep-file=Application/SCU.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Application -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Configurations -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Device_Driver -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Infra -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Service -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Can -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Application/SCU.src ../Application/SCU.c"
+	.compiler_name		"ctc"
+	;source	'../Application/SCU.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.SCU.SCU_Init',code,cluster('SCU_Init')
+	.sect	'.text.SCU.SCU_Init'
+	.align	2
+	
+	.global	SCU_Init
+; Function SCU_Init
+.L17:
+SCU_Init:	.type	func
+	call	Can_Init
+.L109:
+	call	Tof_Init
+.L110:
+	call	Door_Init
+.L111:
+	call	Asclin3_Init
+.L112:
+	ret
+.L81:
+	
+__SCU_Init_function_end:
+	.size	SCU_Init,__SCU_Init_function_end-SCU_Init
+.L38:
+	; End of function
+	
+	.sdecl	'.text.SCU.SCU_Main',code,cluster('SCU_Main')
+	.sect	'.text.SCU.SCU_Main'
+	.align	2
+	
+	.global	SCU_Main
+; Function SCU_Main
+.L19:
+SCU_Main:	.type	func
+	j	.L2
+.L3:
+	call	Can_Handler
+.L117:
+	mov	d4,#8
+	call	App_Check_Flag
+.L118:
+	jeq	d2,#0,.L4
+.L119:
+	mov	d4,#8
+	call	App_Clear_Flag
+.L120:
+	call	Event_10ms
+.L4:
+	mov	d4,#32
+	call	App_Check_Flag
+.L121:
+	jeq	d2,#0,.L5
+.L122:
+	mov	d4,#32
+	call	App_Clear_Flag
+.L123:
+	call	Event_100ms
+.L5:
+	movh.a	a15,#@his(open_complete)
+	lea	a15,[a15]@los(open_complete)
+.L124:
+	call	Door_Open_Completed
+.L125:
+	st.b	[a15],d2
+.L126:
+	movh.a	a15,#@his(close_complete)
+	lea	a15,[a15]@los(close_complete)
+.L127:
+	call	Door_Close_Completed
+.L128:
+	st.b	[a15],d2
+.L129:
+	movh.a	a15,#@his(open_complete)
+	lea	a15,[a15]@los(open_complete)
+	ld.bu	d15,[a15]
+.L130:
+	jeq	d15,#0,.L6
+.L131:
+	movh.a	a15,#@his(close_timer_flag)
+	lea	a15,[a15]@los(close_timer_flag)
+.L132:
+	mov	d15,#1
+.L133:
+	st.b	[a15],d15
+.L6:
+.L2:
+	j	.L3
+.L134:
+	ret
+.L82:
+	
+__SCU_Main_function_end:
+	.size	SCU_Main,__SCU_Main_function_end-SCU_Main
+.L43:
+	; End of function
+	
+	.sdecl	'.text.SCU.Event_10ms',code,cluster('Event_10ms')
+	.sect	'.text.SCU.Event_10ms'
+	.align	2
+	
+; Function Event_10ms
+.L21:
+Event_10ms:	.type	func
+	call	Send_Door_Complete_Msg
+.L139:
+	mov	d4,#0
+	call	Tof_Write_Dummy
+.L140:
+	mov	d4,#1
+	call	Tof_Write_Dummy
+.L141:
+	movh.a	a15,#@his(f_distance)
+	lea	a15,[a15]@los(f_distance)
+.L142:
+	mov	d4,#0
+	call	Tof_Read
+.L143:
+	st.w	[a15],d2
+.L144:
+	movh.a	a15,#@his(r_distance)
+	lea	a15,[a15]@los(r_distance)
+.L145:
+	mov	d4,#1
+	call	Tof_Read
+.L146:
+	st.w	[a15],d2
+.L147:
+	call	Send_Tof_Msg
+.L148:
+	ret
+.L83:
+	
+__Event_10ms_function_end:
+	.size	Event_10ms,__Event_10ms_function_end-Event_10ms
+.L48:
+	; End of function
+	
+	.sdecl	'.text.SCU.Event_100ms',code,cluster('Event_100ms')
+	.sect	'.text.SCU.Event_100ms'
+	.align	2
+	
+; Function Event_100ms
+.L23:
+Event_100ms:	.type	func
+	movh.a	a15,#@his(door_flag)
+	lea	a15,[a15]@los(door_flag)
+	ld.bu	d15,[a15]
+.L153:
+	jne	d15,#1,.L7
+.L154:
+	call	Door_Open
+.L155:
+	j	.L8
+.L7:
+	movh.a	a15,#@his(door_flag)
+	lea	a15,[a15]@los(door_flag)
+	ld.bu	d15,[a15]
+.L156:
+	jne	d15,#0,.L9
+.L157:
+	call	Door_Close
+.L9:
+.L8:
+	ret
+.L84:
+	
+__Event_100ms_function_end:
+	.size	Event_100ms,__Event_100ms_function_end-Event_100ms
+.L53:
+	; End of function
+	
+	.sdecl	'.text.SCU.Can_Handler',code,cluster('Can_Handler')
+	.sect	'.text.SCU.Can_Handler'
+	.align	2
+	
+; Function Can_Handler
+.L25:
+Can_Handler:	.type	func
+	sub.a	a10,#48
+.L98:
+	mov	d4,#0
+.L162:
+	lea	a4,[a10]0
+	call	Can_TxQueue_Pop
+.L163:
+	jeq	d2,#0,.L10
+.L164:
+	mov	d4,#0
+.L165:
+	lea	a4,[a10]0
+	call	Can_Message_Send
+.L10:
+	mov	d4,#1
+.L166:
+	lea	a4,[a10]16
+	call	Can_TxQueue_Pop
+.L167:
+	jeq	d2,#0,.L11
+.L168:
+	mov	d4,#1
+.L169:
+	lea	a4,[a10]16
+	call	Can_Message_Send
+.L11:
+	mov	d4,#0
+.L170:
+	lea	a4,[a10]32
+	call	Can_RxQueue_Pop
+.L171:
+	jeq	d2,#0,.L12
+.L172:
+	ld.w	d15,[a10]34
+.L173:
+	mov	d0,#768
+	jeq	d15,d0,.L13
+	j	.L14
+.L13:
+	movh.a	a15,#@his(door_flag)
+	lea	a15,[a15]@los(door_flag)
+.L174:
+	ld.w	d4,[a10]40
+.L175:
+	ld.w	d5,[a10]44
+.L176:
+	mov	d6,#0
+.L177:
+	mov	d7,#1
+	call	Can_Message_Parse
+.L178:
+	st.b	[a15],d2
+.L179:
+	j	.L15
+.L14:
+.L15:
+.L12:
+	ret
+.L85:
+	
+__Can_Handler_function_end:
+	.size	Can_Handler,__Can_Handler_function_end-Can_Handler
+.L58:
+	; End of function
+	
+	.sdecl	'.text.SCU.Send_Tof_Msg',code,cluster('Send_Tof_Msg')
+	.sect	'.text.SCU.Send_Tof_Msg'
+	.align	2
+	
+; Function Send_Tof_Msg
+.L27:
+Send_Tof_Msg:	.type	func
+	sub.a	a10,#16
+.L99:
+	lea	a4,[a10]0
+.L184:
+	mov	d4,#256
+.L185:
+	mov	d5,#256
+.L186:
+	mov	d6,#8
+	call	Can_Message_Init
+.L187:
+	lea	a4,[a10]0
+.L188:
+	mov	d4,#0
+.L189:
+	mov	d5,#24
+.L190:
+	movh.a	a15,#@his(f_distance)
+	lea	a15,[a15]@los(f_distance)
+	ld.w	d6,[a15]
+	call	Can_Message_AddSignal
+.L191:
+	lea	a4,[a10]0
+.L192:
+	mov	d4,#32
+.L193:
+	mov	d5,#24
+.L194:
+	movh.a	a15,#@his(r_distance)
+	lea	a15,[a15]@los(r_distance)
+	ld.w	d6,[a15]
+	call	Can_Message_AddSignal
+.L195:
+	mov	d4,#0
+.L196:
+	lea	a4,[a10]0
+	call	Can_TxQueue_Push
+.L197:
+	ret
+.L90:
+	
+__Send_Tof_Msg_function_end:
+	.size	Send_Tof_Msg,__Send_Tof_Msg_function_end-Send_Tof_Msg
+.L63:
+	; End of function
+	
+	.sdecl	'.text.SCU.Send_Door_Complete_Msg',code,cluster('Send_Door_Complete_Msg')
+	.sect	'.text.SCU.Send_Door_Complete_Msg'
+	.align	2
+	
+; Function Send_Door_Complete_Msg
+.L29:
+Send_Door_Complete_Msg:	.type	func
+	sub.a	a10,#32
+.L100:
+	lea	a4,[a10]0
+.L202:
+	mov	d4,#769
+.L203:
+	mov	d5,#769
+.L204:
+	mov	d6,#1
+	call	Can_Message_Init
+.L205:
+	call	Door_Open_Completed
+.L206:
+	lea	a4,[a10]0
+.L207:
+	mov	d4,#0
+.L208:
+	mov	d5,#1
+.L209:
+	mov	d6,d2
+	call	Can_Message_AddSignal
+.L210:
+	mov	d4,#0
+.L211:
+	lea	a4,[a10]0
+	call	Can_TxQueue_Push
+.L94:
+	lea	a4,[a10]16
+.L212:
+	mov	d4,#770
+.L213:
+	mov	d5,#770
+.L214:
+	mov	d6,#1
+	call	Can_Message_Init
+.L215:
+	call	Door_Close_Completed
+.L216:
+	lea	a4,[a10]16
+.L217:
+	mov	d4,#0
+.L218:
+	mov	d5,#1
+.L219:
+	mov	d6,d2
+	call	Can_Message_AddSignal
+.L220:
+	mov	d4,#0
+.L221:
+	lea	a4,[a10]16
+	call	Can_TxQueue_Push
+.L222:
+	ret
+.L92:
+	
+__Send_Door_Complete_Msg_function_end:
+	.size	Send_Door_Complete_Msg,__Send_Door_Complete_Msg_function_end-Send_Door_Complete_Msg
+.L68:
+	; End of function
+	
+	.sdecl	'.bss.SCU.f_distance',data,cluster('f_distance')
+	.sect	'.bss.SCU.f_distance'
+	.align	2
+f_distance:	.type	object
+	.size	f_distance,4
+	.space	4
+	.sdecl	'.bss.SCU.r_distance',data,cluster('r_distance')
+	.sect	'.bss.SCU.r_distance'
+	.align	2
+r_distance:	.type	object
+	.size	r_distance,4
+	.space	4
+	.sdecl	'.bss.SCU.door_flag',data,cluster('door_flag')
+	.sect	'.bss.SCU.door_flag'
+door_flag:	.type	object
+	.size	door_flag,1
+	.space	1
+	.sdecl	'.bss.SCU.open_complete',data,cluster('open_complete')
+	.sect	'.bss.SCU.open_complete'
+open_complete:	.type	object
+	.size	open_complete,1
+	.space	1
+	.sdecl	'.bss.SCU.close_complete',data,cluster('close_complete')
+	.sect	'.bss.SCU.close_complete'
+close_complete:	.type	object
+	.size	close_complete,1
+	.space	1
+	.sdecl	'.bss.SCU.close_timer_flag',data,cluster('close_timer_flag')
+	.sect	'.bss.SCU.close_timer_flag'
+close_timer_flag:	.type	object
+	.size	close_timer_flag,1
+	.space	1
+	.calls	'SCU_Init','Can_Init'
+	.calls	'SCU_Init','Tof_Init'
+	.calls	'SCU_Init','Door_Init'
+	.calls	'SCU_Init','Asclin3_Init'
+	.calls	'SCU_Main','Can_Handler'
+	.calls	'SCU_Main','App_Check_Flag'
+	.calls	'SCU_Main','App_Clear_Flag'
+	.calls	'SCU_Main','Event_10ms'
+	.calls	'SCU_Main','Event_100ms'
+	.calls	'SCU_Main','Door_Open_Completed'
+	.calls	'SCU_Main','Door_Close_Completed'
+	.calls	'Event_10ms','Send_Door_Complete_Msg'
+	.calls	'Event_10ms','Tof_Write_Dummy'
+	.calls	'Event_10ms','Tof_Read'
+	.calls	'Event_10ms','Send_Tof_Msg'
+	.calls	'Event_100ms','Door_Open'
+	.calls	'Event_100ms','Door_Close'
+	.calls	'Can_Handler','Can_TxQueue_Pop'
+	.calls	'Can_Handler','Can_Message_Send'
+	.calls	'Can_Handler','Can_RxQueue_Pop'
+	.calls	'Can_Handler','Can_Message_Parse'
+	.calls	'Send_Tof_Msg','Can_Message_Init'
+	.calls	'Send_Tof_Msg','Can_Message_AddSignal'
+	.calls	'Send_Tof_Msg','Can_TxQueue_Push'
+	.calls	'Send_Door_Complete_Msg','Can_Message_Init'
+	.calls	'Send_Door_Complete_Msg','Door_Open_Completed'
+	.calls	'Send_Door_Complete_Msg','Can_Message_AddSignal'
+	.calls	'Send_Door_Complete_Msg','Can_TxQueue_Push'
+	.calls	'Send_Door_Complete_Msg','Door_Close_Completed'
+	.calls	'SCU_Init','',0
+	.calls	'SCU_Main','',0
+	.calls	'Event_10ms','',0
+	.calls	'Event_100ms','',0
+	.calls	'Can_Handler','',48
+	.calls	'Send_Tof_Msg','',16
+	.extern	App_Clear_Flag
+	.extern	App_Check_Flag
+	.extern	Can_Init
+	.extern	Can_Message_Init
+	.extern	Can_Message_AddSignal
+	.extern	Can_Message_Send
+	.extern	Can_Message_Parse
+	.extern	Can_RxQueue_Pop
+	.extern	Can_TxQueue_Push
+	.extern	Can_TxQueue_Pop
+	.extern	Tof_Read
+	.extern	Tof_Write_Dummy
+	.extern	Door_Init
+	.extern	Door_Open
+	.extern	Door_Close
+	.extern	Door_Open_Completed
+	.extern	Door_Close_Completed
+	.extern	Asclin3_Init
+	.extern	Tof_Init
+	.calls	'Send_Door_Complete_Msg','',32
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L31:
+	.word	1760
+	.half	3
+	.word	.L32
+	.byte	4
+.L30:
+	.byte	1
+	.byte	'../Application/SCU.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L33
+.L96:
+	.byte	2
+	.byte	'unsigned long int',0,4,7,3
+	.byte	'App_Clear_Flag',0,1,62,6,1,1,1,1,4
+	.byte	'flag',0,1,62,28
+	.word	187
+	.byte	0
+.L97:
+	.byte	2
+	.byte	'unsigned char',0,1,8,5
+	.byte	'App_Check_Flag',0,1,63,9
+	.word	245
+	.byte	1,1,1,1,4
+	.byte	'flag',0,1,63,31
+	.word	187
+	.byte	0,6
+	.byte	'Can_Init',0,2,62,6,1,1,1,1,7,2,28,9,2,8
+	.byte	'MOTOR_CONTROL',0,1,8
+	.byte	'MOTOR_INFO_SEND_TO_CCU',0,2,8
+	.byte	'TOF_MESSAGE',0,128,2,8
+	.byte	'DOOR_MESSAGE',0,128,6,8
+	.byte	'DOOR_OPEN_COMPLETE',0,129,6,8
+	.byte	'DOOR_CLOSE_COMPLETE',0,130,6,8
+	.byte	'SEND_TOF_DUMMY',0,129,8,0
+.L86:
+	.byte	9,2,44,9,16,10
+	.byte	'msg',0
+	.word	320
+	.byte	2,2,35,0,10
+	.byte	'id',0
+	.word	187
+	.byte	4,2,35,2,10
+	.byte	'dlc',0
+	.word	245
+	.byte	1,2,35,6,10
+	.byte	'dataLow',0
+	.word	187
+	.byte	4,2,35,8,10
+	.byte	'dataHigh',0
+	.word	187
+	.byte	4,2,35,12,0,11
+	.word	461
+	.byte	3
+	.byte	'Can_Message_Init',0,2,63,6,1,1,1,1,4
+	.byte	'message',0,2,63,35
+	.word	540
+	.byte	4
+	.byte	'msg',0,2,63,56
+	.word	320
+	.byte	4
+	.byte	'id',0,2,63,68
+	.word	187
+	.byte	4
+	.byte	'dlc',0,2,63,78
+	.word	245
+	.byte	0,3
+	.byte	'Can_Message_AddSignal',0,2,64,6,1,1,1,1,4
+	.byte	'message',0,2,64,40
+	.word	540
+	.byte	4
+	.byte	'startBit',0,2,64,55
+	.word	245
+	.byte	4
+	.byte	'length',0,2,64,71
+	.word	245
+	.byte	4
+	.byte	'value',0,2,64,86
+	.word	187
+	.byte	0,7,2,38,9,1,8
+	.byte	'ECU',0,0,8
+	.byte	'TOFSENSOR',0,1,0,3
+	.byte	'Can_Message_Send',0,2,65,6,1,1,1,1,4
+	.byte	'ch',0,2,65,31
+	.word	715
+	.byte	4
+	.byte	'message',0,2,65,46
+	.word	540
+	.byte	0,5
+	.byte	'Can_Message_Parse',0,2,66,8
+	.word	187
+	.byte	1,1,1,1,4
+	.byte	'dataLow',0,2,66,33
+	.word	187
+	.byte	4
+	.byte	'dataHigh',0,2,66,49
+	.word	187
+	.byte	4
+	.byte	'startBit',0,2,66,65
+	.word	245
+	.byte	4
+	.byte	'length',0,2,66,81
+	.word	245
+	.byte	0,2
+	.byte	'int',0,4,5,5
+	.byte	'Can_RxQueue_Pop',0,2,68,5
+	.word	888
+	.byte	1,1,1,1,4
+	.byte	'Channel',0,2,68,29
+	.word	715
+	.byte	4
+	.byte	'message',0,2,68,49
+	.word	540
+	.byte	0,12
+	.word	461
+	.byte	11
+	.word	956
+	.byte	5
+	.byte	'Can_TxQueue_Push',0,2,69,5
+	.word	888
+	.byte	1,1,1,1,4
+	.byte	'Channel',0,2,69,30
+	.word	715
+	.byte	4
+	.byte	'message',0,2,69,57
+	.word	961
+	.byte	0,5
+	.byte	'Can_TxQueue_Pop',0,2,70,5
+	.word	888
+	.byte	1,1,1,1,4
+	.byte	'Channel',0,2,70,29
+	.word	715
+	.byte	4
+	.byte	'message',0,2,70,49
+	.word	540
+	.byte	0,7,3,43,9,1,8
+	.byte	'FRONT_TOF',0,0,8
+	.byte	'REAR_TOF',0,1,0,5
+	.byte	'Tof_Read',0,3,69,8
+	.word	187
+	.byte	1,1,1,1,4
+	.byte	'ch',0,3,69,28
+	.word	1089
+	.byte	0,3
+	.byte	'Tof_Write_Dummy',0,3,70,6,1,1,1,1,4
+	.byte	'ch',0,3,70,33
+	.word	1089
+	.byte	0,6
+	.byte	'Door_Init',0,4,58,6,1,1,1,1,6
+	.byte	'Door_Open',0,4,59,6,1,1,1,1,6
+	.byte	'Door_Close',0,4,60,6,1,1,1,1,13
+	.byte	'Door_Open_Completed',0,4,61,9
+	.word	245
+	.byte	1,1,1,1,13
+	.byte	'Door_Close_Completed',0,4,62,9
+	.word	245
+	.byte	1,1,1,1,6
+	.byte	'Asclin3_Init',0,5,56,6,1,1,1,1,14
+	.byte	'Tof_Init',0,6,75,5
+	.word	888
+	.byte	1,1,1,2
+	.byte	'short int',0,2,5,15
+	.byte	'__wchar_t',0,6,1,1
+	.word	1348
+	.byte	2
+	.byte	'unsigned int',0,4,7,15
+	.byte	'__size_t',0,6,1,1
+	.word	1379
+	.byte	15
+	.byte	'__ptrdiff_t',0,6,1,1
+	.word	888
+	.byte	16,1,11
+	.word	1432
+	.byte	15
+	.byte	'__codeptr',0,6,1,1
+	.word	1434
+	.byte	15
+	.byte	'boolean',0,7,104,29
+	.word	245
+	.byte	15
+	.byte	'uint8',0,7,108,29
+	.word	245
+	.byte	2
+	.byte	'unsigned short int',0,2,7,15
+	.byte	'uint16',0,7,112,29
+	.word	1487
+	.byte	15
+	.byte	'uint32',0,7,116,29
+	.word	187
+	.byte	15
+	.byte	'sint16',0,7,129,1,29
+	.word	1348
+	.byte	2
+	.byte	'long int',0,4,5,15
+	.byte	'sint32',0,7,134,1,29
+	.word	1555
+	.byte	2
+	.byte	'long long int',0,8,5,15
+	.byte	'sint64',0,7,141,1,29
+	.word	1583
+	.byte	2
+	.byte	'float',0,4,4,15
+	.byte	'float32',0,7,170,1,29
+	.word	1616
+	.byte	15
+	.byte	'CanMessageId',0,2,36,3
+	.word	320
+	.byte	15
+	.byte	'Channel',0,2,42,2
+	.word	715
+	.byte	15
+	.byte	'CanMessage',0,2,51,3
+	.word	461
+	.byte	15
+	.byte	'TofChannel',0,3,47,2
+	.word	1089
+	.byte	17
+	.byte	'void',0,11
+	.word	1717
+	.byte	15
+	.byte	'pvoid',0,8,54,28
+	.word	1723
+	.byte	15
+	.byte	'Ifx_TickTime',0,8,76,28
+	.word	1583
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L32:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,1,3,8,58,15,59,15,57,15
+	.byte	54,15,39,12,63,12,60,12,0,0,4,5,0,3,8,58,15,59,15,57,15,73,19,0,0,5,46,1,3,8,58,15,59,15,57,15,73,19,54
+	.byte	15,39,12,63,12,60,12,0,0,6,46,0,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,7,4,1,58,15,59,15,57
+	.byte	15,11,15,0,0,8,40,0,3,8,28,13,0,0,9,19,1,58,15,59,15,57,15,11,15,0,0,10,13,0,3,8,73,19,11,15,56,9,0,0
+	.byte	11,15,0,73,19,0,0,12,38,0,73,19,0,0,13,46,0,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,14
+	.byte	46,0,3,8,58,15,59,15,57,15,73,19,54,15,63,12,60,12,0,0,15,22,0,3,8,58,15,59,15,57,15,73,19,0,0,16,21,0
+	.byte	54,15,0,0,17,59,0,3,8,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L33:
+	.word	.L102-.L101
+.L101:
+	.half	3
+	.word	.L104-.L103
+.L103:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	0
+	.byte	'C:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\Application\\AppScheduler.h',0,0,0,0
+	.byte	'C:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\Device_Driver\\Can.h',0,0,0,0
+	.byte	'C:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\Device_Driver\\Tof.h',0,0,0,0
+	.byte	'C:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\Device_Driver\\Door.h',0,0,0,0
+	.byte	'C:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\Device_Driver\\Asclin3.h',0,0,0,0
+	.byte	'../Application/SCU.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Ifx_Types.h',0,1,0,0,0
+.L104:
+.L102:
+	.sdecl	'.debug_info',debug,cluster('SCU_Init')
+	.sect	'.debug_info'
+.L34:
+	.word	231
+	.half	3
+	.word	.L35
+	.byte	4,1
+	.byte	'../Application/SCU.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L37,.L36
+	.byte	2
+	.word	.L30
+	.byte	3
+	.byte	'SCU_Init',0,1,72,6,1,1,1
+	.word	.L17,.L81,.L16
+	.byte	4
+	.word	.L17,.L81
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SCU_Init')
+	.sect	'.debug_abbrev'
+.L35:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SCU_Init')
+	.sect	'.debug_line'
+.L36:
+	.word	.L106-.L105
+.L105:
+	.half	3
+	.word	.L108-.L107
+.L107:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Application/SCU.c',0,0,0,0,0
+.L108:
+	.byte	5,13,7,0,5,2
+	.word	.L17
+	.byte	3,201,0,1,9
+	.half	.L109-.L17
+	.byte	3,1,1,5,14,9
+	.half	.L110-.L109
+	.byte	3,1,1,5,17,9
+	.half	.L111-.L110
+	.byte	3,1,1,5,1,9
+	.half	.L112-.L111
+	.byte	3,1,1,7,9
+	.half	.L38-.L112
+	.byte	0,1,1
+.L106:
+	.sdecl	'.debug_ranges',debug,cluster('SCU_Init')
+	.sect	'.debug_ranges'
+.L37:
+	.word	-1,.L17,0,.L38-.L17,0,0
+	.sdecl	'.debug_info',debug,cluster('SCU_Main')
+	.sect	'.debug_info'
+.L39:
+	.word	231
+	.half	3
+	.word	.L40
+	.byte	4,1
+	.byte	'../Application/SCU.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L42,.L41
+	.byte	2
+	.word	.L30
+	.byte	3
+	.byte	'SCU_Main',0,1,79,6,1,1,1
+	.word	.L19,.L82,.L18
+	.byte	4
+	.word	.L19,.L82
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SCU_Main')
+	.sect	'.debug_abbrev'
+.L40:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SCU_Main')
+	.sect	'.debug_line'
+.L41:
+	.word	.L114-.L113
+.L113:
+	.half	3
+	.word	.L116-.L115
+.L115:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Application/SCU.c',0,0,0,0,0
+.L116:
+	.byte	5,12,7,0,5,2
+	.word	.L19
+	.byte	3,208,0,1,5,20,9
+	.half	.L3-.L19
+	.byte	3,2,1,5,27,9
+	.half	.L117-.L3
+	.byte	3,2,1,5,9,9
+	.half	.L118-.L117
+	.byte	1,5,28,7,9
+	.half	.L119-.L118
+	.byte	3,1,1,5,23,9
+	.half	.L120-.L119
+	.byte	3,1,1,5,27,9
+	.half	.L4-.L120
+	.byte	3,2,1,5,9,9
+	.half	.L121-.L4
+	.byte	1,5,28,7,9
+	.half	.L122-.L121
+	.byte	3,1,1,5,24,9
+	.half	.L123-.L122
+	.byte	3,1,1,5,9,9
+	.half	.L5-.L123
+	.byte	3,2,1,5,42,9
+	.half	.L124-.L5
+	.byte	1,5,22,9
+	.half	.L125-.L124
+	.byte	1,5,9,9
+	.half	.L126-.L125
+	.byte	3,1,1,5,44,9
+	.half	.L127-.L126
+	.byte	1,5,23,9
+	.half	.L128-.L127
+	.byte	1,5,12,9
+	.half	.L129-.L128
+	.byte	3,2,1,5,9,9
+	.half	.L130-.L129
+	.byte	1,5,13,7,9
+	.half	.L131-.L130
+	.byte	3,2,1,5,31,9
+	.half	.L132-.L131
+	.byte	1,5,30,9
+	.half	.L133-.L132
+	.byte	1,5,12,9
+	.half	.L2-.L133
+	.byte	3,111,1,5,1,9
+	.half	.L134-.L2
+	.byte	3,21,1,7,9
+	.half	.L43-.L134
+	.byte	0,1,1
+.L114:
+	.sdecl	'.debug_ranges',debug,cluster('SCU_Main')
+	.sect	'.debug_ranges'
+.L42:
+	.word	-1,.L19,0,.L43-.L19,0,0
+	.sdecl	'.debug_info',debug,cluster('Event_10ms')
+	.sect	'.debug_info'
+.L44:
+	.word	232
+	.half	3
+	.word	.L45
+	.byte	4,1
+	.byte	'../Application/SCU.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L47,.L46
+	.byte	2
+	.word	.L30
+	.byte	3
+	.byte	'Event_10ms',0,1,103,6,1,1
+	.word	.L21,.L83,.L20
+	.byte	4
+	.word	.L21,.L83
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Event_10ms')
+	.sect	'.debug_abbrev'
+.L45:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Event_10ms')
+	.sect	'.debug_line'
+.L46:
+	.word	.L136-.L135
+.L135:
+	.half	3
+	.word	.L138-.L137
+.L137:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Application/SCU.c',0,0,0,0,0
+.L138:
+	.byte	5,27,7,0,5,2
+	.word	.L21
+	.byte	3,232,0,1,5,21,9
+	.half	.L139-.L21
+	.byte	3,2,1,9
+	.half	.L140-.L139
+	.byte	3,1,1,5,5,9
+	.half	.L141-.L140
+	.byte	3,2,1,5,26,9
+	.half	.L142-.L141
+	.byte	1,5,16,9
+	.half	.L143-.L142
+	.byte	1,5,5,9
+	.half	.L144-.L143
+	.byte	3,1,1,5,26,9
+	.half	.L145-.L144
+	.byte	1,5,16,9
+	.half	.L146-.L145
+	.byte	1,5,17,9
+	.half	.L147-.L146
+	.byte	3,2,1,5,1,9
+	.half	.L148-.L147
+	.byte	3,1,1,7,9
+	.half	.L48-.L148
+	.byte	0,1,1
+.L136:
+	.sdecl	'.debug_ranges',debug,cluster('Event_10ms')
+	.sect	'.debug_ranges'
+.L47:
+	.word	-1,.L21,0,.L48-.L21,0,0
+	.sdecl	'.debug_info',debug,cluster('Event_100ms')
+	.sect	'.debug_info'
+.L49:
+	.word	233
+	.half	3
+	.word	.L50
+	.byte	4,1
+	.byte	'../Application/SCU.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L52,.L51
+	.byte	2
+	.word	.L30
+	.byte	3
+	.byte	'Event_100ms',0,1,116,13,1,1
+	.word	.L23,.L84,.L22
+	.byte	4
+	.word	.L23,.L84
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Event_100ms')
+	.sect	'.debug_abbrev'
+.L50:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Event_100ms')
+	.sect	'.debug_line'
+.L51:
+	.word	.L150-.L149
+.L149:
+	.half	3
+	.word	.L152-.L151
+.L151:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Application/SCU.c',0,0,0,0,0
+.L152:
+	.byte	5,8,7,0,5,2
+	.word	.L23
+	.byte	3,245,0,1,5,5,9
+	.half	.L153-.L23
+	.byte	1,5,18,7,9
+	.half	.L154-.L153
+	.byte	3,2,1,5,20,9
+	.half	.L155-.L154
+	.byte	1,5,13,9
+	.half	.L7-.L155
+	.byte	3,3,1,5,10,9
+	.half	.L156-.L7
+	.byte	1,5,19,7,9
+	.half	.L157-.L156
+	.byte	3,2,1,5,1,9
+	.half	.L8-.L157
+	.byte	3,2,1,7,9
+	.half	.L53-.L8
+	.byte	0,1,1
+.L150:
+	.sdecl	'.debug_ranges',debug,cluster('Event_100ms')
+	.sect	'.debug_ranges'
+.L52:
+	.word	-1,.L23,0,.L53-.L23,0,0
+	.sdecl	'.debug_info',debug,cluster('Can_Handler')
+	.sect	'.debug_info'
+.L54:
+	.word	294
+	.half	3
+	.word	.L55
+	.byte	4,1
+	.byte	'../Application/SCU.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L57,.L56
+	.byte	2
+	.word	.L30
+	.byte	3
+	.byte	'Can_Handler',0,1,142,1,13,1,1
+	.word	.L25,.L85,.L24
+	.byte	4
+	.word	.L25,.L85
+	.byte	5
+	.byte	'txmsg',0,1,144,1,16
+	.word	.L86,.L87
+	.byte	5
+	.byte	'txmsg_tof',0,1,145,1,16
+	.word	.L86,.L88
+	.byte	5
+	.byte	'msg',0,1,146,1,16
+	.word	.L86,.L89
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Can_Handler')
+	.sect	'.debug_abbrev'
+.L55:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Can_Handler')
+	.sect	'.debug_line'
+.L56:
+	.word	.L159-.L158
+.L158:
+	.half	3
+	.word	.L161-.L160
+.L160:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Application/SCU.c',0,0,0,0,0
+.L161:
+	.byte	5,13,7,0,5,2
+	.word	.L25
+	.byte	3,141,1,1,5,24,9
+	.half	.L98-.L25
+	.byte	3,5,1,5,29,9
+	.half	.L162-.L98
+	.byte	1,5,5,9
+	.half	.L163-.L162
+	.byte	1,5,26,7,9
+	.half	.L164-.L163
+	.byte	3,2,1,5,31,9
+	.half	.L165-.L164
+	.byte	1,5,24,9
+	.half	.L10-.L165
+	.byte	3,3,1,5,35,9
+	.half	.L166-.L10
+	.byte	1,5,5,9
+	.half	.L167-.L166
+	.byte	1,5,26,7,9
+	.half	.L168-.L167
+	.byte	3,2,1,5,37,9
+	.half	.L169-.L168
+	.byte	1,5,24,9
+	.half	.L11-.L169
+	.byte	3,3,1,5,29,9
+	.half	.L170-.L11
+	.byte	1,5,5,9
+	.half	.L171-.L170
+	.byte	1,5,19,7,9
+	.half	.L172-.L171
+	.byte	3,2,1,5,18,9
+	.half	.L173-.L172
+	.byte	3,2,1,5,17,9
+	.half	.L13-.L173
+	.byte	3,3,1,5,58,9
+	.half	.L174-.L13
+	.byte	1,5,71,9
+	.half	.L175-.L174
+	.byte	1,5,82,9
+	.half	.L176-.L175
+	.byte	1,5,85,9
+	.half	.L177-.L176
+	.byte	1,5,27,9
+	.half	.L178-.L177
+	.byte	1,5,13,9
+	.half	.L179-.L178
+	.byte	3,2,1,5,1,9
+	.half	.L12-.L179
+	.byte	3,3,1,7,9
+	.half	.L58-.L12
+	.byte	0,1,1
+.L159:
+	.sdecl	'.debug_ranges',debug,cluster('Can_Handler')
+	.sect	'.debug_ranges'
+.L57:
+	.word	-1,.L25,0,.L58-.L25,0,0
+	.sdecl	'.debug_info',debug,cluster('Send_Tof_Msg')
+	.sect	'.debug_info'
+.L59:
+	.word	255
+	.half	3
+	.word	.L60
+	.byte	4,1
+	.byte	'../Application/SCU.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L62,.L61
+	.byte	2
+	.word	.L30
+	.byte	3
+	.byte	'Send_Tof_Msg',0,1,170,1,13,1,1
+	.word	.L27,.L90,.L26
+	.byte	4
+	.word	.L27,.L90
+	.byte	5
+	.byte	'txmsg',0,1,172,1,16
+	.word	.L86,.L91
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Send_Tof_Msg')
+	.sect	'.debug_abbrev'
+.L60:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Send_Tof_Msg')
+	.sect	'.debug_line'
+.L61:
+	.word	.L181-.L180
+.L180:
+	.half	3
+	.word	.L183-.L182
+.L182:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Application/SCU.c',0,0,0,0,0
+.L183:
+	.byte	5,13,7,0,5,2
+	.word	.L27
+	.byte	3,169,1,1,5,23,9
+	.half	.L99-.L27
+	.byte	3,3,1,5,30,9
+	.half	.L184-.L99
+	.byte	1,5,43,9
+	.half	.L185-.L184
+	.byte	1,5,50,9
+	.half	.L186-.L185
+	.byte	1,5,28,9
+	.half	.L187-.L186
+	.byte	3,2,1,5,35,9
+	.half	.L188-.L187
+	.byte	1,5,38,9
+	.half	.L189-.L188
+	.byte	1,5,41,9
+	.half	.L190-.L189
+	.byte	1,5,28,9
+	.half	.L191-.L190
+	.byte	3,1,1,5,35,9
+	.half	.L192-.L191
+	.byte	1,5,38,9
+	.half	.L193-.L192
+	.byte	1,5,41,9
+	.half	.L194-.L193
+	.byte	1,5,22,9
+	.half	.L195-.L194
+	.byte	3,1,1,5,27,9
+	.half	.L196-.L195
+	.byte	1,5,1,9
+	.half	.L197-.L196
+	.byte	3,1,1,7,9
+	.half	.L63-.L197
+	.byte	0,1,1
+.L181:
+	.sdecl	'.debug_ranges',debug,cluster('Send_Tof_Msg')
+	.sect	'.debug_ranges'
+.L62:
+	.word	-1,.L27,0,.L63-.L27,0,0
+	.sdecl	'.debug_info',debug,cluster('Send_Door_Complete_Msg')
+	.sect	'.debug_info'
+.L64:
+	.word	295
+	.half	3
+	.word	.L65
+	.byte	4,1
+	.byte	'../Application/SCU.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L67,.L66
+	.byte	2
+	.word	.L30
+	.byte	3
+	.byte	'Send_Door_Complete_Msg',0,1,179,1,13,1,1
+	.word	.L29,.L92,.L28
+	.byte	4
+	.word	.L29,.L92
+	.byte	5
+	.byte	'txmsg',0,1,181,1,16
+	.word	.L86,.L93
+	.byte	4
+	.word	.L94,.L92
+	.byte	5
+	.byte	'txmsg2',0,1,186,1,16
+	.word	.L86,.L95
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Send_Door_Complete_Msg')
+	.sect	'.debug_abbrev'
+.L65:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Send_Door_Complete_Msg')
+	.sect	'.debug_line'
+.L66:
+	.word	.L199-.L198
+.L198:
+	.half	3
+	.word	.L201-.L200
+.L200:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Application/SCU.c',0,0,0,0,0
+.L201:
+	.byte	5,13,7,0,5,2
+	.word	.L29
+	.byte	3,178,1,1,5,23,9
+	.half	.L100-.L29
+	.byte	3,3,1,5,30,9
+	.half	.L202-.L100
+	.byte	1,5,50,9
+	.half	.L203-.L202
+	.byte	1,5,57,9
+	.half	.L204-.L203
+	.byte	1,5,60,9
+	.half	.L205-.L204
+	.byte	3,1,1,5,28,9
+	.half	.L206-.L205
+	.byte	1,5,35,9
+	.half	.L207-.L206
+	.byte	1,5,38,9
+	.half	.L208-.L207
+	.byte	1,5,60,9
+	.half	.L209-.L208
+	.byte	1,5,22,9
+	.half	.L210-.L209
+	.byte	3,1,1,5,27,9
+	.half	.L211-.L210
+	.byte	1,5,23,9
+	.half	.L94-.L211
+	.byte	3,3,1,5,31,9
+	.half	.L212-.L94
+	.byte	1,5,52,9
+	.half	.L213-.L212
+	.byte	1,5,59,9
+	.half	.L214-.L213
+	.byte	1,5,62,9
+	.half	.L215-.L214
+	.byte	3,1,1,5,28,9
+	.half	.L216-.L215
+	.byte	1,5,36,9
+	.half	.L217-.L216
+	.byte	1,5,39,9
+	.half	.L218-.L217
+	.byte	1,5,62,9
+	.half	.L219-.L218
+	.byte	1,5,22,9
+	.half	.L220-.L219
+	.byte	3,1,1,5,27,9
+	.half	.L221-.L220
+	.byte	1,5,1,9
+	.half	.L222-.L221
+	.byte	3,1,1,7,9
+	.half	.L68-.L222
+	.byte	0,1,1
+.L199:
+	.sdecl	'.debug_ranges',debug,cluster('Send_Door_Complete_Msg')
+	.sect	'.debug_ranges'
+.L67:
+	.word	-1,.L29,0,.L68-.L29,0,0
+	.sdecl	'.debug_info',debug,cluster('f_distance')
+	.sect	'.debug_info'
+.L69:
+	.word	210
+	.half	3
+	.word	.L70
+	.byte	4,1
+	.byte	'../Application/SCU.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L30
+	.byte	3
+	.byte	'f_distance',0,6,46,15
+	.word	.L96
+	.byte	5,3
+	.word	f_distance
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('f_distance')
+	.sect	'.debug_abbrev'
+.L70:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('r_distance')
+	.sect	'.debug_info'
+.L71:
+	.word	210
+	.half	3
+	.word	.L72
+	.byte	4,1
+	.byte	'../Application/SCU.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L30
+	.byte	3
+	.byte	'r_distance',0,6,46,26
+	.word	.L96
+	.byte	5,3
+	.word	r_distance
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('r_distance')
+	.sect	'.debug_abbrev'
+.L72:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('door_flag')
+	.sect	'.debug_info'
+.L73:
+	.word	209
+	.half	3
+	.word	.L74
+	.byte	4,1
+	.byte	'../Application/SCU.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L30
+	.byte	3
+	.byte	'door_flag',0,6,47,16
+	.word	.L97
+	.byte	5,3
+	.word	door_flag
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('door_flag')
+	.sect	'.debug_abbrev'
+.L74:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('open_complete')
+	.sect	'.debug_info'
+.L75:
+	.word	213
+	.half	3
+	.word	.L76
+	.byte	4,1
+	.byte	'../Application/SCU.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L30
+	.byte	3
+	.byte	'open_complete',0,6,50,16
+	.word	.L97
+	.byte	5,3
+	.word	open_complete
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('open_complete')
+	.sect	'.debug_abbrev'
+.L76:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('close_complete')
+	.sect	'.debug_info'
+.L77:
+	.word	214
+	.half	3
+	.word	.L78
+	.byte	4,1
+	.byte	'../Application/SCU.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L30
+	.byte	3
+	.byte	'close_complete',0,6,50,30
+	.word	.L97
+	.byte	5,3
+	.word	close_complete
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('close_complete')
+	.sect	'.debug_abbrev'
+.L78:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('close_timer_flag')
+	.sect	'.debug_info'
+.L79:
+	.word	216
+	.half	3
+	.word	.L80
+	.byte	4,1
+	.byte	'../Application/SCU.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L30
+	.byte	3
+	.byte	'close_timer_flag',0,6,52,16
+	.word	.L97
+	.byte	5,3
+	.word	close_timer_flag
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('close_timer_flag')
+	.sect	'.debug_abbrev'
+.L80:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('Can_Handler')
+	.sect	'.debug_loc'
+.L24:
+	.word	-1,.L25,0,.L98-.L25
+	.half	2
+	.byte	138,0
+	.word	.L98-.L25,.L85-.L25
+	.half	2
+	.byte	138,48
+	.word	.L85-.L25,.L85-.L25
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L89:
+	.word	-1,.L25,0,.L85-.L25
+	.half	2
+	.byte	145,112
+	.word	0,0
+.L87:
+	.word	-1,.L25,0,.L85-.L25
+	.half	2
+	.byte	145,80
+	.word	0,0
+.L88:
+	.word	-1,.L25,0,.L85-.L25
+	.half	2
+	.byte	145,96
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Event_100ms')
+	.sect	'.debug_loc'
+.L22:
+	.word	-1,.L23,0,.L84-.L23
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Event_10ms')
+	.sect	'.debug_loc'
+.L20:
+	.word	-1,.L21,0,.L83-.L21
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SCU_Init')
+	.sect	'.debug_loc'
+.L16:
+	.word	-1,.L17,0,.L81-.L17
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SCU_Main')
+	.sect	'.debug_loc'
+.L18:
+	.word	-1,.L19,0,.L82-.L19
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Send_Door_Complete_Msg')
+	.sect	'.debug_loc'
+.L28:
+	.word	-1,.L29,0,.L100-.L29
+	.half	2
+	.byte	138,0
+	.word	.L100-.L29,.L92-.L29
+	.half	2
+	.byte	138,32
+	.word	.L92-.L29,.L92-.L29
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L93:
+	.word	-1,.L29,0,.L92-.L29
+	.half	2
+	.byte	145,96
+	.word	0,0
+.L95:
+	.word	-1,.L29,0,.L92-.L29
+	.half	2
+	.byte	145,112
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Send_Tof_Msg')
+	.sect	'.debug_loc'
+.L26:
+	.word	-1,.L27,0,.L99-.L27
+	.half	2
+	.byte	138,0
+	.word	.L99-.L27,.L90-.L27
+	.half	2
+	.byte	138,16
+	.word	.L90-.L27,.L90-.L27
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L91:
+	.word	-1,.L27,0,.L90-.L27
+	.half	2
+	.byte	145,112
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L223:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('SCU_Init')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L223,.L17,.L81-.L17
+	.sdecl	'.debug_frame',debug,cluster('SCU_Main')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L223,.L19,.L82-.L19
+	.sdecl	'.debug_frame',debug,cluster('Event_10ms')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L223,.L21,.L83-.L21
+	.sdecl	'.debug_frame',debug,cluster('Event_100ms')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L223,.L23,.L84-.L23
+	.sdecl	'.debug_frame',debug,cluster('Can_Handler')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L223,.L25,.L85-.L25
+	.byte	4
+	.word	(.L98-.L25)/2
+	.byte	19,48,22,26,3,19,138,48,4
+	.word	(.L85-.L98)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('Send_Tof_Msg')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L223,.L27,.L90-.L27
+	.byte	4
+	.word	(.L99-.L27)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L90-.L99)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('Send_Door_Complete_Msg')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L223,.L29,.L92-.L29
+	.byte	4
+	.word	(.L100-.L29)/2
+	.byte	19,32,22,26,3,19,138,32,4
+	.word	(.L92-.L100)/2
+	.byte	19,0,8,26,0,0
+	; Module end

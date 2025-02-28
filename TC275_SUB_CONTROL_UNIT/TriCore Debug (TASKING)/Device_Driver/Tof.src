@@ -1,0 +1,1310 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc5628a --dep-file=Device_Driver/Tof.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Application -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Configurations -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Device_Driver -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Infra -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Service -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Can -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Device_Driver/Tof.src ../Device_Driver/Tof.c"
+	.compiler_name		"ctc"
+	;source	'../Device_Driver/Tof.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.Tof.Tof_Init',code,cluster('Tof_Init')
+	.sect	'.text.Tof.Tof_Init'
+	.align	2
+	
+	.global	Tof_Init
+; Function Tof_Init
+.L22:
+Tof_Init:	.type	func
+	movh.a	a4,#@his(SendLeftTofMsg)
+	lea	a4,[a4]@los(SendLeftTofMsg)
+.L180:
+	mov	d4,#1025
+.L181:
+	mov	d5,#1025
+.L182:
+	mov	d6,#8
+	call	Can_Message_Init
+.L183:
+	movh.a	a4,#@his(SendLeftTofMsg)
+	lea	a4,[a4]@los(SendLeftTofMsg)
+.L184:
+	mov	d4,#0
+.L185:
+	mov	d5,#24
+.L186:
+	mov.u	d6,#65535
+	addih	d6,d6,#255
+	call	Can_Message_AddSignal
+.L187:
+	movh.a	a4,#@his(SendLeftTofMsg)
+	lea	a4,[a4]@los(SendLeftTofMsg)
+.L188:
+	mov	d4,#24
+.L189:
+	mov	d5,#8
+.L190:
+	mov	d6,#1
+	call	Can_Message_AddSignal
+.L191:
+	movh.a	a4,#@his(SendLeftTofMsg)
+	lea	a4,[a4]@los(SendLeftTofMsg)
+.L192:
+	mov	d4,#32
+.L193:
+	mov	d5,#32
+.L194:
+	mov	d6,#-1
+	call	Can_Message_AddSignal
+.L195:
+	movh.a	a4,#@his(SendFrontTofMsg)
+	lea	a4,[a4]@los(SendFrontTofMsg)
+.L196:
+	mov	d4,#1025
+.L197:
+	mov	d5,#1026
+.L198:
+	mov	d6,#8
+	call	Can_Message_Init
+.L199:
+	movh.a	a4,#@his(SendFrontTofMsg)
+	lea	a4,[a4]@los(SendFrontTofMsg)
+.L200:
+	mov	d4,#0
+.L201:
+	mov	d5,#24
+.L202:
+	mov.u	d6,#65535
+	addih	d6,d6,#255
+	call	Can_Message_AddSignal
+.L203:
+	movh.a	a4,#@his(SendFrontTofMsg)
+	lea	a4,[a4]@los(SendFrontTofMsg)
+.L204:
+	mov	d4,#24
+.L205:
+	mov	d5,#8
+.L206:
+	mov	d6,#2
+	call	Can_Message_AddSignal
+.L207:
+	movh.a	a4,#@his(SendFrontTofMsg)
+	lea	a4,[a4]@los(SendFrontTofMsg)
+.L208:
+	mov	d4,#32
+.L209:
+	mov	d5,#32
+.L210:
+	mov	d6,#-1
+	call	Can_Message_AddSignal
+.L211:
+	ret
+.L88:
+	
+__Tof_Init_function_end:
+	.size	Tof_Init,__Tof_Init_function_end-Tof_Init
+.L59:
+	; End of function
+	
+	.sdecl	'.text.Tof.Tof_Read',code,cluster('Tof_Read')
+	.sect	'.text.Tof.Tof_Read'
+	.align	2
+	
+	.global	Tof_Read
+; Function Tof_Read
+.L24:
+Tof_Read:	.type	func
+	mov	d8,d4
+.L96:
+	mov	d4,#1
+.L95:
+	movh.a	a4,#@his(tofMsg)
+	lea	a4,[a4]@los(tofMsg)
+	call	Can_RxQueue_Pop
+.L111:
+	jeq	d2,#0,.L2
+.L112:
+	mov	d15,#0
+	jeq	d15,d8,.L3
+.L113:
+	mov	d15,#1
+	jeq	d15,d8,.L4
+	j	.L5
+.L3:
+	movh.a	a15,#@his(tofMsg)
+	lea	a15,[a15]@los(tofMsg)
+.L114:
+	ld.w	d15,[a15]2
+.L115:
+	mov	d0,#514
+.L116:
+	jne	d15,d0,.L6
+.L117:
+	movh.a	a15,#@his(tofMsg)
+	lea	a15,[a15]@los(tofMsg)
+.L118:
+	ld.w	d4,[a15]8
+.L119:
+	movh.a	a15,#@his(tofMsg)
+	lea	a15,[a15]@los(tofMsg)
+.L120:
+	ld.w	d5,[a15]12
+.L121:
+	movh.a	a15,#@his(rawFrontDistance)
+	lea	a15,[a15]@los(rawFrontDistance)
+.L122:
+	mov	d6,#0
+.L123:
+	mov	d7,#24
+	call	Can_Message_Parse
+.L124:
+	st.w	[a15],d2
+.L125:
+	movh.a	a15,#@his(rawFrontDistance)
+	lea	a15,[a15]@los(rawFrontDistance)
+	ld.w	d2,[a15]
+.L126:
+	j	.L7
+.L6:
+	j	.L8
+.L4:
+	movh.a	a15,#@his(tofMsg)
+	lea	a15,[a15]@los(tofMsg)
+.L127:
+	ld.w	d15,[a15]2
+.L128:
+	mov	d0,#513
+.L129:
+	jne	d15,d0,.L9
+.L130:
+	movh.a	a15,#@his(tofMsg)
+	lea	a15,[a15]@los(tofMsg)
+.L131:
+	ld.w	d4,[a15]8
+.L132:
+	movh.a	a15,#@his(tofMsg)
+	lea	a15,[a15]@los(tofMsg)
+.L133:
+	ld.w	d5,[a15]12
+.L134:
+	movh.a	a15,#@his(rawRearDistance)
+	lea	a15,[a15]@los(rawRearDistance)
+.L135:
+	mov	d6,#0
+.L136:
+	mov	d7,#24
+	call	Can_Message_Parse
+.L137:
+	st.w	[a15],d2
+.L138:
+	movh.a	a15,#@his(rawRearDistance)
+	lea	a15,[a15]@los(rawRearDistance)
+	ld.w	d2,[a15]
+.L139:
+	j	.L10
+.L9:
+	j	.L11
+.L5:
+.L11:
+.L8:
+.L2:
+	mov	d2,#0
+.L140:
+	j	.L12
+.L12:
+.L10:
+.L7:
+	ret
+.L73:
+	
+__Tof_Read_function_end:
+	.size	Tof_Read,__Tof_Read_function_end-Tof_Read
+.L39:
+	; End of function
+	
+	.sdecl	'.text.Tof.Tof_Write_Dummy',code,cluster('Tof_Write_Dummy')
+	.sect	'.text.Tof.Tof_Write_Dummy'
+	.align	2
+	
+	.global	Tof_Write_Dummy
+; Function Tof_Write_Dummy
+.L26:
+Tof_Write_Dummy:	.type	func
+	mov	d15,#0
+	jeq	d15,d4,.L13
+.L145:
+	mov	d15,#1
+	jeq	d15,d4,.L14
+	j	.L15
+.L13:
+	mov	d4,#1
+.L97:
+	movh.a	a4,#@his(SendFrontTofMsg)
+	lea	a4,[a4]@los(SendFrontTofMsg)
+	call	Can_TxQueue_Push
+.L146:
+	j	.L16
+.L14:
+	mov	d4,#1
+.L98:
+	movh.a	a4,#@his(SendLeftTofMsg)
+	lea	a4,[a4]@los(SendLeftTofMsg)
+	call	Can_TxQueue_Push
+.L147:
+	j	.L17
+.L15:
+.L17:
+.L16:
+	ret
+.L76:
+	
+__Tof_Write_Dummy_function_end:
+	.size	Tof_Write_Dummy,__Tof_Write_Dummy_function_end-Tof_Write_Dummy
+.L44:
+	; End of function
+	
+	.sdecl	'.text.Tof.Tof_FilterInit',code,cluster('Tof_FilterInit')
+	.sect	'.text.Tof.Tof_FilterInit'
+	.align	2
+	
+	.global	Tof_FilterInit
+; Function Tof_FilterInit
+.L28:
+Tof_FilterInit:	.type	func
+	mov	d0,#0
+.L99:
+	j	.L18
+.L19:
+	mul	d15,d0,#4
+	addsc.a	a15,a4,d15,#0
+.L152:
+	mov	d15,#0
+.L153:
+	st.w	[a15],d15
+.L154:
+	add	d0,#1
+.L18:
+	jlt	d0,#3,.L19
+.L81:
+	mov	d15,#0
+.L155:
+	st.b	[a4]12,d15
+.L156:
+	mov	d15,#0
+.L157:
+	st.w	[a4]14,d15
+.L158:
+	ret
+.L78:
+	
+__Tof_FilterInit_function_end:
+	.size	Tof_FilterInit,__Tof_FilterInit_function_end-Tof_FilterInit
+.L49:
+	; End of function
+	
+	.sdecl	'.text.Tof.addSample',code,cluster('addSample')
+	.sect	'.text.Tof.addSample'
+	.align	2
+	
+	.global	addSample
+; Function addSample
+.L30:
+addSample:	.type	func
+	ld.bu	d15,[a4]12
+.L163:
+	mul	d15,d15,#4
+	addsc.a	a15,a4,d15,#0
+	ld.w	d0,[a15]
+.L101:
+	ld.bu	d15,[a4]12
+.L164:
+	mul	d15,d15,#4
+	addsc.a	a15,a4,d15,#0
+.L165:
+	st.w	[a15],d4
+.L166:
+	ld.w	d15,[a4]14
+.L167:
+	sub	d4,d0
+.L100:
+	add	d15,d4
+	st.w	[a4]14,d15
+.L168:
+	ld.bu	d15,[a4]12
+.L169:
+	add	d15,#1
+.L170:
+	mov	d0,#3
+.L102:
+	div	e0,d15,d0
+.L171:
+	st.b	[a4]12,d1
+.L172:
+	ld.w	d15,[a4]14
+.L173:
+	mov	d0,#3
+.L174:
+	div.u	e2,d15,d0
+.L175:
+	j	.L20
+.L20:
+	ret
+.L84:
+	
+__addSample_function_end:
+	.size	addSample,__addSample_function_end-addSample
+.L54:
+	; End of function
+	
+	.sdecl	'.bss.Tof.frontTofMsg',data,cluster('frontTofMsg')
+	.sect	'.bss.Tof.frontTofMsg'
+	.global	frontTofMsg
+	.align	4
+frontTofMsg:	.type	object
+	.size	frontTofMsg,16
+	.space	16
+	.sdecl	'.bss.Tof.tofMsg',data,cluster('tofMsg')
+	.sect	'.bss.Tof.tofMsg'
+	.global	tofMsg
+	.align	4
+tofMsg:	.type	object
+	.size	tofMsg,16
+	.space	16
+	.sdecl	'.bss.Tof.SendFrontTofMsg',data,cluster('SendFrontTofMsg')
+	.sect	'.bss.Tof.SendFrontTofMsg'
+	.global	SendFrontTofMsg
+	.align	4
+SendFrontTofMsg:	.type	object
+	.size	SendFrontTofMsg,16
+	.space	16
+	.sdecl	'.bss.Tof.SendLeftTofMsg',data,cluster('SendLeftTofMsg')
+	.sect	'.bss.Tof.SendLeftTofMsg'
+	.global	SendLeftTofMsg
+	.align	4
+SendLeftTofMsg:	.type	object
+	.size	SendLeftTofMsg,16
+	.space	16
+	.sdecl	'.bss.Tof.rawFrontDistance',data,cluster('rawFrontDistance')
+	.sect	'.bss.Tof.rawFrontDistance'
+	.align	2
+rawFrontDistance:	.type	object
+	.size	rawFrontDistance,4
+	.space	4
+	.sdecl	'.bss.Tof.rawRearDistance',data,cluster('rawRearDistance')
+	.sect	'.bss.Tof.rawRearDistance'
+	.align	2
+rawRearDistance:	.type	object
+	.size	rawRearDistance,4
+	.space	4
+	.calls	'Tof_Init','Can_Message_Init'
+	.calls	'Tof_Init','Can_Message_AddSignal'
+	.calls	'Tof_Read','Can_RxQueue_Pop'
+	.calls	'Tof_Read','Can_Message_Parse'
+	.calls	'Tof_Write_Dummy','Can_TxQueue_Push'
+	.calls	'Tof_Init','',0
+	.calls	'Tof_Read','',0
+	.calls	'Tof_Write_Dummy','',0
+	.calls	'Tof_FilterInit','',0
+	.extern	Can_Message_Init
+	.extern	Can_Message_AddSignal
+	.extern	Can_Message_Parse
+	.extern	Can_RxQueue_Pop
+	.extern	Can_TxQueue_Push
+	.calls	'addSample','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L32:
+	.word	1159
+	.half	3
+	.word	.L33
+	.byte	4
+.L31:
+	.byte	1
+	.byte	'../Device_Driver/Tof.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L34
+.L72:
+	.byte	2
+	.byte	'unsigned long int',0,4,7
+.L74:
+	.byte	3,1,43,9,1,4
+	.byte	'FRONT_TOF',0,0,4
+	.byte	'REAR_TOF',0,1,0,5,12
+	.word	189
+	.byte	6,2,0,2
+	.byte	'unsigned char',0,1,8,7,1,50,9,20,8
+	.byte	'buffer',0
+	.word	239
+	.byte	12,2,35,0,8
+	.byte	'index',0
+	.word	248
+	.byte	1,2,35,12,8
+	.byte	'sum',0
+	.word	189
+	.byte	4,2,35,14,0
+.L79:
+	.byte	9
+	.word	265
+.L82:
+	.byte	2
+	.byte	'int',0,4,5,3,2,28,9,2,4
+	.byte	'MOTOR_CONTROL',0,1,4
+	.byte	'MOTOR_INFO_SEND_TO_CCU',0,2,4
+	.byte	'TOF_MESSAGE',0,128,2,4
+	.byte	'DOOR_MESSAGE',0,128,6,4
+	.byte	'DOOR_OPEN_COMPLETE',0,129,6,4
+	.byte	'DOOR_CLOSE_COMPLETE',0,130,6,4
+	.byte	'SEND_TOF_DUMMY',0,129,8,0,7,2,44,9,16,8
+	.byte	'msg',0
+	.word	327
+	.byte	2,2,35,0,8
+	.byte	'id',0
+	.word	189
+	.byte	4,2,35,2,8
+	.byte	'dlc',0
+	.word	248
+	.byte	1,2,35,6,8
+	.byte	'dataLow',0
+	.word	189
+	.byte	4,2,35,8,8
+	.byte	'dataHigh',0
+	.word	189
+	.byte	4,2,35,12,0,9
+	.word	468
+	.byte	10
+	.byte	'Can_Message_Init',0,2,63,6,1,1,1,1,11
+	.byte	'message',0,2,63,35
+	.word	547
+	.byte	11
+	.byte	'msg',0,2,63,56
+	.word	327
+	.byte	11
+	.byte	'id',0,2,63,68
+	.word	189
+	.byte	11
+	.byte	'dlc',0,2,63,78
+	.word	248
+	.byte	0,10
+	.byte	'Can_Message_AddSignal',0,2,64,6,1,1,1,1,11
+	.byte	'message',0,2,64,40
+	.word	547
+	.byte	11
+	.byte	'startBit',0,2,64,55
+	.word	248
+	.byte	11
+	.byte	'length',0,2,64,71
+	.word	248
+	.byte	11
+	.byte	'value',0,2,64,86
+	.word	189
+	.byte	0,12
+	.byte	'Can_Message_Parse',0,2,66,8
+	.word	189
+	.byte	1,1,1,1,11
+	.byte	'dataLow',0,2,66,33
+	.word	189
+	.byte	11
+	.byte	'dataHigh',0,2,66,49
+	.word	189
+	.byte	11
+	.byte	'startBit',0,2,66,65
+	.word	248
+	.byte	11
+	.byte	'length',0,2,66,81
+	.word	248
+	.byte	0,3,2,38,9,1,4
+	.byte	'ECU',0,0,4
+	.byte	'TOFSENSOR',0,1,0,12
+	.byte	'Can_RxQueue_Pop',0,2,68,5
+	.word	320
+	.byte	1,1,1,1,11
+	.byte	'Channel',0,2,68,29
+	.word	818
+	.byte	11
+	.byte	'message',0,2,68,49
+	.word	547
+	.byte	0,13
+	.word	468
+	.byte	9
+	.word	903
+	.byte	12
+	.byte	'Can_TxQueue_Push',0,2,69,5
+	.word	320
+	.byte	1,1,1,1,11
+	.byte	'Channel',0,2,69,30
+	.word	818
+	.byte	11
+	.byte	'message',0,2,69,57
+	.word	908
+	.byte	0,14,1,9
+	.word	975
+	.byte	15
+	.byte	'__codeptr',0,3,1,1
+	.word	977
+	.byte	15
+	.byte	'uint8',0,4,108,29
+	.word	248
+	.byte	15
+	.byte	'uint32',0,4,116,29
+	.word	189
+	.byte	15
+	.byte	'TofChannel',0,1,47,2
+	.word	210
+	.byte	15
+	.byte	'MovingAverageFilter',0,1,54,3
+	.word	265
+	.byte	15
+	.byte	'CanMessageId',0,2,36,3
+	.word	327
+	.byte	15
+	.byte	'Channel',0,2,42,2
+	.word	818
+	.byte	15
+	.byte	'CanMessage',0,2,51,3
+	.word	468
+.L89:
+	.byte	16
+	.word	468
+.L90:
+	.byte	16
+	.word	468
+.L91:
+	.byte	16
+	.word	468
+.L92:
+	.byte	16
+	.word	468
+.L93:
+	.byte	16
+	.word	189
+.L94:
+	.byte	16
+	.word	189
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L33:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,4,1,58,15,59,15,57,15,11,15
+	.byte	0,0,4,40,0,3,8,28,13,0,0,5,1,1,11,15,73,19,0,0,6,33,0,47,15,0,0,7,19,1,58,15,59,15,57,15,11,15,0,0,8,13
+	.byte	0,3,8,73,19,11,15,56,9,0,0,9,15,0,73,19,0,0,10,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0
+	.byte	11,5,0,3,8,58,15,59,15,57,15,73,19,0,0,12,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0
+	.byte	13,38,0,73,19,0,0,14,21,0,54,15,0,0,15,22,0,3,8,58,15,59,15,57,15,73,19,0,0,16,53,0,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L34:
+	.word	.L104-.L103
+.L103:
+	.half	3
+	.word	.L106-.L105
+.L105:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\Users\\\\A\\\\aurix_final\\\\TC275_SUB_CONTROL_UNIT\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	0
+	.byte	'..\\Device_Driver\\Tof.h',0,0,0,0
+	.byte	'..\\Device_Driver\\Can.h',0,0,0,0
+	.byte	'../Device_Driver/Tof.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0,0
+.L106:
+.L104:
+	.sdecl	'.debug_info',debug,cluster('Tof_Read')
+	.sect	'.debug_info'
+.L35:
+	.word	252
+	.half	3
+	.word	.L36
+	.byte	4,1
+	.byte	'../Device_Driver/Tof.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L38,.L37
+	.byte	2
+	.word	.L31
+	.byte	3
+	.byte	'Tof_Read',0,1,77,8
+	.word	.L72
+	.byte	1,1,1
+	.word	.L24,.L73,.L23
+	.byte	4
+	.byte	'ch',0,1,77,28
+	.word	.L74,.L75
+	.byte	5
+	.word	.L24,.L73
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Tof_Read')
+	.sect	'.debug_abbrev'
+.L36:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Tof_Read')
+	.sect	'.debug_line'
+.L37:
+	.word	.L108-.L107
+.L107:
+	.half	3
+	.word	.L110-.L109
+.L109:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Device_Driver/Tof.c',0,0,0,0,0
+.L110:
+	.byte	5,8,7,0,5,2
+	.word	.L24
+	.byte	3,204,0,1,5,24,9
+	.half	.L96-.L24
+	.byte	3,2,1,5,27,9
+	.half	.L95-.L96
+	.byte	1,5,5,9
+	.half	.L111-.L95
+	.byte	1,5,18,7,9
+	.half	.L112-.L111
+	.byte	3,4,1,9
+	.half	.L113-.L112
+	.byte	3,11,1,5,20,9
+	.half	.L3-.L113
+	.byte	3,119,1,5,26,9
+	.half	.L114-.L3
+	.byte	1,5,31,9
+	.half	.L115-.L114
+	.byte	1,5,17,9
+	.half	.L116-.L115
+	.byte	1,5,56,7,9
+	.half	.L117-.L116
+	.byte	3,3,1,5,62,9
+	.half	.L118-.L117
+	.byte	1,5,72,9
+	.half	.L119-.L118
+	.byte	1,5,78,9
+	.half	.L120-.L119
+	.byte	1,5,21,9
+	.half	.L121-.L120
+	.byte	1,5,89,9
+	.half	.L122-.L121
+	.byte	1,5,92,9
+	.half	.L123-.L122
+	.byte	1,5,37,9
+	.half	.L124-.L123
+	.byte	1,5,28,9
+	.half	.L125-.L124
+	.byte	3,1,1,5,21,9
+	.half	.L126-.L125
+	.byte	1,5,13,9
+	.half	.L6-.L126
+	.byte	3,3,1,5,20,9
+	.half	.L4-.L6
+	.byte	3,4,1,5,26,9
+	.half	.L127-.L4
+	.byte	1,5,31,9
+	.half	.L128-.L127
+	.byte	1,5,17,9
+	.half	.L129-.L128
+	.byte	1,5,56,7,9
+	.half	.L130-.L129
+	.byte	3,2,1,5,62,9
+	.half	.L131-.L130
+	.byte	1,5,72,9
+	.half	.L132-.L131
+	.byte	1,5,78,9
+	.half	.L133-.L132
+	.byte	1,5,21,9
+	.half	.L134-.L133
+	.byte	1,5,89,9
+	.half	.L135-.L134
+	.byte	1,5,92,9
+	.half	.L136-.L135
+	.byte	1,5,37,9
+	.half	.L137-.L136
+	.byte	1,5,28,9
+	.half	.L138-.L137
+	.byte	3,1,1,5,21,9
+	.half	.L139-.L138
+	.byte	1,5,13,9
+	.half	.L9-.L139
+	.byte	3,3,1,5,12,9
+	.half	.L2-.L9
+	.byte	3,3,1,5,5,9
+	.half	.L140-.L2
+	.byte	1,5,1,9
+	.half	.L7-.L140
+	.byte	3,1,1,7,9
+	.half	.L39-.L7
+	.byte	0,1,1
+.L108:
+	.sdecl	'.debug_ranges',debug,cluster('Tof_Read')
+	.sect	'.debug_ranges'
+.L38:
+	.word	-1,.L24,0,.L39-.L24,0,0
+	.sdecl	'.debug_info',debug,cluster('Tof_Write_Dummy')
+	.sect	'.debug_info'
+.L40:
+	.word	255
+	.half	3
+	.word	.L41
+	.byte	4,1
+	.byte	'../Device_Driver/Tof.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L43,.L42
+	.byte	2
+	.word	.L31
+	.byte	3
+	.byte	'Tof_Write_Dummy',0,1,107,6,1,1,1
+	.word	.L26,.L76,.L25
+	.byte	4
+	.byte	'ch',0,1,107,33
+	.word	.L74,.L77
+	.byte	5
+	.word	.L26,.L76
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Tof_Write_Dummy')
+	.sect	'.debug_abbrev'
+.L41:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Tof_Write_Dummy')
+	.sect	'.debug_line'
+.L42:
+	.word	.L142-.L141
+.L141:
+	.half	3
+	.word	.L144-.L143
+.L143:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Device_Driver/Tof.c',0,0,0,0,0
+.L144:
+	.byte	5,14,7,0,5,2
+	.word	.L26
+	.byte	3,238,0,1,9
+	.half	.L145-.L26
+	.byte	3,6,1,5,30,9
+	.half	.L13-.L145
+	.byte	3,124,1,5,41,9
+	.half	.L97-.L13
+	.byte	1,5,9,9
+	.half	.L146-.L97
+	.byte	3,2,1,5,30,9
+	.half	.L14-.L146
+	.byte	3,4,1,5,41,9
+	.half	.L98-.L14
+	.byte	1,5,9,9
+	.half	.L147-.L98
+	.byte	3,2,1,5,1,9
+	.half	.L16-.L147
+	.byte	3,2,1,7,9
+	.half	.L44-.L16
+	.byte	0,1,1
+.L142:
+	.sdecl	'.debug_ranges',debug,cluster('Tof_Write_Dummy')
+	.sect	'.debug_ranges'
+.L43:
+	.word	-1,.L26,0,.L44-.L26,0,0
+	.sdecl	'.debug_info',debug,cluster('Tof_FilterInit')
+	.sect	'.debug_info'
+.L45:
+	.word	286
+	.half	3
+	.word	.L46
+	.byte	4,1
+	.byte	'../Device_Driver/Tof.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L48,.L47
+	.byte	2
+	.word	.L31
+	.byte	3
+	.byte	'Tof_FilterInit',0,1,128,1,6,1,1,1
+	.word	.L28,.L78,.L27
+	.byte	4
+	.byte	'filter',0,1,128,1,42
+	.word	.L79,.L80
+	.byte	5
+	.word	.L28,.L78
+	.byte	5
+	.word	.L28,.L81
+	.byte	6
+	.byte	'i',0,1,130,1,14
+	.word	.L82,.L83
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Tof_FilterInit')
+	.sect	'.debug_abbrev'
+.L46:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Tof_FilterInit')
+	.sect	'.debug_line'
+.L47:
+	.word	.L149-.L148
+.L148:
+	.half	3
+	.word	.L151-.L150
+.L150:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Device_Driver/Tof.c',0,0,0,0,0
+.L151:
+	.byte	5,16,7,0,5,2
+	.word	.L28
+	.byte	3,129,1,1,5,36,9
+	.half	.L99-.L28
+	.byte	1,5,23,9
+	.half	.L19-.L99
+	.byte	3,1,1,5,29,9
+	.half	.L152-.L19
+	.byte	1,5,27,9
+	.half	.L153-.L152
+	.byte	1,5,39,9
+	.half	.L154-.L153
+	.byte	3,127,1,5,36,9
+	.half	.L18-.L154
+	.byte	1,5,21,7,9
+	.half	.L81-.L18
+	.byte	3,3,1,5,19,9
+	.half	.L155-.L81
+	.byte	1,9
+	.half	.L156-.L155
+	.byte	3,1,1,5,17,9
+	.half	.L157-.L156
+	.byte	1,5,1,9
+	.half	.L158-.L157
+	.byte	3,1,1,7,9
+	.half	.L49-.L158
+	.byte	0,1,1
+.L149:
+	.sdecl	'.debug_ranges',debug,cluster('Tof_FilterInit')
+	.sect	'.debug_ranges'
+.L48:
+	.word	-1,.L28,0,.L49-.L28,0,0
+	.sdecl	'.debug_info',debug,cluster('addSample')
+	.sect	'.debug_info'
+.L50:
+	.word	301
+	.half	3
+	.word	.L51
+	.byte	4,1
+	.byte	'../Device_Driver/Tof.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L53,.L52
+	.byte	2
+	.word	.L31
+	.byte	3
+	.byte	'addSample',0,1,138,1,8
+	.word	.L72
+	.byte	1,1,1
+	.word	.L30,.L84,.L29
+	.byte	4
+	.byte	'filter',0,1,138,1,39
+	.word	.L79,.L85
+	.byte	4
+	.byte	'sample',0,1,138,1,54
+	.word	.L72,.L86
+	.byte	5
+	.word	.L30,.L84
+	.byte	6
+	.byte	'removed',0,1,141,1,12
+	.word	.L72,.L87
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('addSample')
+	.sect	'.debug_abbrev'
+.L51:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('addSample')
+	.sect	'.debug_line'
+.L52:
+	.word	.L160-.L159
+.L159:
+	.half	3
+	.word	.L162-.L161
+.L161:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Device_Driver/Tof.c',0,0,0,0,0
+.L162:
+	.byte	5,43,7,0,5,2
+	.word	.L30
+	.byte	3,140,1,1,5,36,9
+	.half	.L163-.L30
+	.byte	1,5,26,9
+	.half	.L101-.L163
+	.byte	3,3,1,5,19,9
+	.half	.L164-.L101
+	.byte	1,5,35,9
+	.half	.L165-.L164
+	.byte	1,5,11,9
+	.half	.L166-.L165
+	.byte	3,3,1,5,27,9
+	.half	.L167-.L166
+	.byte	1,5,17,9
+	.half	.L100-.L167
+	.byte	1,5,28,9
+	.half	.L168-.L100
+	.byte	3,3,1,5,36,9
+	.half	.L169-.L168
+	.byte	1,5,43,9
+	.half	.L170-.L169
+	.byte	1,5,41,9
+	.half	.L102-.L170
+	.byte	1,5,19,9
+	.half	.L171-.L102
+	.byte	1,5,18,9
+	.half	.L172-.L171
+	.byte	3,3,1,5,26,9
+	.half	.L173-.L172
+	.byte	1,5,24,9
+	.half	.L174-.L173
+	.byte	1,5,5,9
+	.half	.L175-.L174
+	.byte	1,5,1,9
+	.half	.L20-.L175
+	.byte	3,1,1,7,9
+	.half	.L54-.L20
+	.byte	0,1,1
+.L160:
+	.sdecl	'.debug_ranges',debug,cluster('addSample')
+	.sect	'.debug_ranges'
+.L53:
+	.word	-1,.L30,0,.L54-.L30,0,0
+	.sdecl	'.debug_info',debug,cluster('Tof_Init')
+	.sect	'.debug_info'
+.L55:
+	.word	233
+	.half	3
+	.word	.L56
+	.byte	4,1
+	.byte	'../Device_Driver/Tof.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L58,.L57
+	.byte	2
+	.word	.L31
+	.byte	3
+	.byte	'Tof_Init',0,1,63,6,1,1,1
+	.word	.L22,.L88,.L21
+	.byte	4
+	.word	.L22,.L88
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Tof_Init')
+	.sect	'.debug_abbrev'
+.L56:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Tof_Init')
+	.sect	'.debug_line'
+.L57:
+	.word	.L177-.L176
+.L176:
+	.half	3
+	.word	.L179-.L178
+.L178:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Device_Driver/Tof.c',0,0,0,0,0
+.L179:
+	.byte	5,23,7,0,5,2
+	.word	.L22
+	.byte	3,192,0,1,5,39,9
+	.half	.L180-.L22
+	.byte	1,5,55,9
+	.half	.L181-.L180
+	.byte	1,5,62,9
+	.half	.L182-.L181
+	.byte	1,5,28,9
+	.half	.L183-.L182
+	.byte	3,1,1,5,44,9
+	.half	.L184-.L183
+	.byte	1,5,47,9
+	.half	.L185-.L184
+	.byte	1,5,51,9
+	.half	.L186-.L185
+	.byte	1,5,28,9
+	.half	.L187-.L186
+	.byte	3,1,1,5,44,9
+	.half	.L188-.L187
+	.byte	1,5,47,9
+	.half	.L189-.L188
+	.byte	1,5,50,9
+	.half	.L190-.L189
+	.byte	1,5,28,9
+	.half	.L191-.L190
+	.byte	3,1,1,5,44,9
+	.half	.L192-.L191
+	.byte	1,5,48,9
+	.half	.L193-.L192
+	.byte	1,5,52,9
+	.half	.L194-.L193
+	.byte	1,5,23,9
+	.half	.L195-.L194
+	.byte	3,2,1,5,40,9
+	.half	.L196-.L195
+	.byte	1,5,56,9
+	.half	.L197-.L196
+	.byte	1,5,63,9
+	.half	.L198-.L197
+	.byte	1,5,28,9
+	.half	.L199-.L198
+	.byte	3,1,1,5,45,9
+	.half	.L200-.L199
+	.byte	1,5,48,9
+	.half	.L201-.L200
+	.byte	1,5,52,9
+	.half	.L202-.L201
+	.byte	1,5,28,9
+	.half	.L203-.L202
+	.byte	3,1,1,5,45,9
+	.half	.L204-.L203
+	.byte	1,5,48,9
+	.half	.L205-.L204
+	.byte	1,5,51,9
+	.half	.L206-.L205
+	.byte	1,5,28,9
+	.half	.L207-.L206
+	.byte	3,1,1,5,45,9
+	.half	.L208-.L207
+	.byte	1,5,49,9
+	.half	.L209-.L208
+	.byte	1,5,53,9
+	.half	.L210-.L209
+	.byte	1,5,1,9
+	.half	.L211-.L210
+	.byte	3,1,1,7,9
+	.half	.L59-.L211
+	.byte	0,1,1
+.L177:
+	.sdecl	'.debug_ranges',debug,cluster('Tof_Init')
+	.sect	'.debug_ranges'
+.L58:
+	.word	-1,.L22,0,.L59-.L22,0,0
+	.sdecl	'.debug_info',debug,cluster('frontTofMsg')
+	.sect	'.debug_info'
+.L60:
+	.word	214
+	.half	3
+	.word	.L61
+	.byte	4,1
+	.byte	'../Device_Driver/Tof.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'frontTofMsg',0,3,41,21
+	.word	.L89
+	.byte	1,5,3
+	.word	frontTofMsg
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('frontTofMsg')
+	.sect	'.debug_abbrev'
+.L61:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('tofMsg')
+	.sect	'.debug_info'
+.L62:
+	.word	209
+	.half	3
+	.word	.L63
+	.byte	4,1
+	.byte	'../Device_Driver/Tof.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'tofMsg',0,3,42,21
+	.word	.L90
+	.byte	1,5,3
+	.word	tofMsg
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('tofMsg')
+	.sect	'.debug_abbrev'
+.L63:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('SendFrontTofMsg')
+	.sect	'.debug_info'
+.L64:
+	.word	218
+	.half	3
+	.word	.L65
+	.byte	4,1
+	.byte	'../Device_Driver/Tof.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'SendFrontTofMsg',0,3,43,21
+	.word	.L91
+	.byte	1,5,3
+	.word	SendFrontTofMsg
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SendFrontTofMsg')
+	.sect	'.debug_abbrev'
+.L65:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('SendLeftTofMsg')
+	.sect	'.debug_info'
+.L66:
+	.word	217
+	.half	3
+	.word	.L67
+	.byte	4,1
+	.byte	'../Device_Driver/Tof.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'SendLeftTofMsg',0,3,44,21
+	.word	.L92
+	.byte	1,5,3
+	.word	SendLeftTofMsg
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('SendLeftTofMsg')
+	.sect	'.debug_abbrev'
+.L67:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('rawFrontDistance')
+	.sect	'.debug_info'
+.L68:
+	.word	218
+	.half	3
+	.word	.L69
+	.byte	4,1
+	.byte	'../Device_Driver/Tof.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'rawFrontDistance',0,3,47,24
+	.word	.L93
+	.byte	5,3
+	.word	rawFrontDistance
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('rawFrontDistance')
+	.sect	'.debug_abbrev'
+.L69:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('rawRearDistance')
+	.sect	'.debug_info'
+.L70:
+	.word	217
+	.half	3
+	.word	.L71
+	.byte	4,1
+	.byte	'../Device_Driver/Tof.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\A\\aurix_final\\TC275_SUB_CONTROL_UNIT\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L31
+	.byte	3
+	.byte	'rawRearDistance',0,3,48,24
+	.word	.L94
+	.byte	5,3
+	.word	rawRearDistance
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('rawRearDistance')
+	.sect	'.debug_abbrev'
+.L71:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('Tof_FilterInit')
+	.sect	'.debug_loc'
+.L27:
+	.word	-1,.L28,0,.L78-.L28
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L80:
+	.word	-1,.L28,0,.L78-.L28
+	.half	1
+	.byte	100
+	.word	0,0
+.L83:
+	.word	-1,.L28,.L99-.L28,.L78-.L28
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Tof_Init')
+	.sect	'.debug_loc'
+.L21:
+	.word	-1,.L22,0,.L88-.L22
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Tof_Read')
+	.sect	'.debug_loc'
+.L23:
+	.word	-1,.L24,0,.L73-.L24
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L75:
+	.word	-1,.L24,0,.L95-.L24
+	.half	1
+	.byte	84
+	.word	.L96-.L24,.L73-.L24
+	.half	1
+	.byte	88
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Tof_Write_Dummy')
+	.sect	'.debug_loc'
+.L25:
+	.word	-1,.L26,0,.L76-.L26
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L77:
+	.word	-1,.L26,0,.L97-.L26
+	.half	1
+	.byte	84
+	.word	.L14-.L26,.L98-.L26
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('addSample')
+	.sect	'.debug_loc'
+.L29:
+	.word	-1,.L30,0,.L84-.L30
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L85:
+	.word	-1,.L30,0,.L84-.L30
+	.half	1
+	.byte	100
+	.word	0,0
+.L87:
+	.word	-1,.L30,.L101-.L30,.L102-.L30
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L86:
+	.word	-1,.L30,0,.L100-.L30
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L212:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Tof_Init')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L212,.L22,.L88-.L22
+	.sdecl	'.debug_frame',debug,cluster('Tof_Read')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L212,.L24,.L73-.L24
+	.sdecl	'.debug_frame',debug,cluster('Tof_Write_Dummy')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L212,.L26,.L76-.L26
+	.sdecl	'.debug_frame',debug,cluster('Tof_FilterInit')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L212,.L28,.L78-.L28
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('addSample')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L212,.L30,.L84-.L30
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	; Module end
